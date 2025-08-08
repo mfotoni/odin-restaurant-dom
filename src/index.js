@@ -1,4 +1,7 @@
 import "./style.css";
+import homeImage from "./home-image.png";
 
-console.log("test");
-alert("benis");
+const landPageImage = document.createElement("img");
+landPageImage.src = homeImage;
+document.querySelector(".call").appendChild(landPageImage);
+landPageImage.classList.add("home-image");
