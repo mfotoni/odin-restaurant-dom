@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #fbf2ea;
+  background-color: #faebdd;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
@@ -27,15 +27,24 @@ nav {
   background: none;
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; */
   color: #0f1e43;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 500;
   padding: 0.7rem 1rem;
   cursor: pointer;
 }
 
 #content {
-  padding: 2rem 6rem;
-  margin: 0 auto;
+  /* text-align: center; */
+  padding: 2rem 20rem;
+  /* margin: 0 auto; */
+}
+@media (max-width: 1366px) {
+  #content {
+    padding: 1.5rem 1.5rem;
+  }
+  /* .instructions {
+    padding: 0 5.5rem;
+  } */
 }
 
 .call {
@@ -43,24 +52,16 @@ nav {
 }
 
 .call h1 {
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center; */
   color: #0f1e43;
-  /* margin: 2rem; */
 }
 
 .home-image {
   display: block;
   margin: 5rem auto; /* margem superior/inferior e laterais */
   max-width: 100%;
-  /* height: auto; */
-  /* object-fit: contain; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
-.footer {
-  margin: 0 14rem;
-}
+/* .instructions {
+  background-color: rgb(241, 213, 68);
+  padding: 0 14rem;
+} */

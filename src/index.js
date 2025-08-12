@@ -1,7 +1,9 @@
 import "./style.css";
-import homeImage from "./home-image.png";
+// import homeImage from "./home-image.png";
+import { DomManipulation } from "./domscript";
 
-const landPageImage = document.createElement("img");
-landPageImage.src = homeImage;
-document.querySelector(".call").appendChild(landPageImage);
-landPageImage.classList.add("home-image");
+// createImageDiv();
+
+DomManipulation.callText();
+DomManipulation.createImageDiv();
+DomManipulation.createInstructionsDiv();
