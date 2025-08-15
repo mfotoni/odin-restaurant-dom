@@ -1,12 +1,15 @@
 import homeImage from "./home-image.png";
 
-export class DomManipulation {
+export class createHomePage {
   constructor() {}
 
   static callText() {
+    // const content = document.getElementById("content");
     const divCall = document.createElement("div");
     const h1Call = document.createElement("h1");
     const buttonCall = document.createElement("button");
+
+    // content.replaceChild();
 
     divCall.classList.add("call");
     buttonCall.classList.add("view-menu");
@@ -55,5 +58,11 @@ export class DomManipulation {
     instructionsDiv.appendChild(instructionsP2);
     instructionsDiv.appendChild(instructionsButton);
     document.querySelector("#content").appendChild(instructionsDiv);
+  }
+
+  static render() {
+    this.callText();
+    this.createImageDiv();
+    this.createInstructionsDiv();
   }
 }
