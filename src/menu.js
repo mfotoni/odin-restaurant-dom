@@ -1,4 +1,4 @@
-import "./menu-about.css";
+// import "./menu-about.css";
 
 export class createMenuPage {
   constructor() {}

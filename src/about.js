@@ -1,5 +1,3 @@
-import "./menu-about.css";
-
 export class createAboutPage {
   constructor() {}
 
