@@ -71,26 +71,6 @@ npx webpack --mode production
 - `src/template.html` is used by HtmlWebpackPlugin to generate `dist/index.html` during dev/build.
 - Webpack loaders are configured to handle CSS, HTML, fonts, and images.
 
-### Available npm scripts (optional)
-
-If you prefer npm scripts, add these to `package.json`:
-
-```json
-{
-  "scripts": {
-    "start": "webpack serve --open --mode development",
-    "build": "webpack --mode production"
-  }
-}
-```
-
-Then run:
-
-```bash
-npm run start
-npm run build
-```
-
 ### Deployment
 
 - Serve the contents of `dist/` with any static host (e.g., GitHub Pages, Netlify, Vercel).
